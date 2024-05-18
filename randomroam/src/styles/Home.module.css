@@ -1,0 +1,89 @@
+/* styles/Home.module.css */
+.randomRoam {
+  background-color: white;
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.discription {
+  background-color: green;
+  border-radius: 2rem;
+  opacity: 0.9;
+  position: relative;
+  margin: 3rem auto;
+  height: 80vh;
+  width: 80%;
+}
+
+.discriptionItems {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 2rem;
+}
+
+.discriptionItems h1 {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+.discriptionItems h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.discriptionItems p {
+  color: white;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.mode {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.right {
+  width: 50%;
+}
+
+.rightContainers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2rem;
+  opacity: 0.9;
+  position: relative;
+  width: 80%;
+  height: 80vh;
+  margin: 3rem auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  margin: 1rem auto;
+  padding: 10px 20px;
+}
