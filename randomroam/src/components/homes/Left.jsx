@@ -16,21 +16,21 @@ const Left = () => {
         <ModeDescription title="シングルモード">
           シングルモードでは日本全国４７都道府県の中から<br/>
           ランダムに行き先を決めてくれます。旅行先に迷った時にご利用ください
-          <Attention title="シングルモード">不要</Attention> 
         </ModeDescription>
+        <Attention title="シングルモード">不要</Attention> 
         <br/>
         <ModeDescription title="マルチモード">
           オフ会などみんなで集まる際に利用する掲示板機能があります<br/>
           掲示板の中で集合先をランダムに表示させることもできますので<br/>
           開催場所の選定時に不公平感が出ません<br/>
-          <Attention title="マルチモード">必要</Attention> 
         </ModeDescription>
+        <Attention title="マルチモード">必要</Attention> 
         <br/>
         <ModeDescription title="ワールドモード">
           アプリがピックアップした世界の有名観光地の中から<br></br>
           次の旅先を決めてくれます。世界を旅したい方はぜひご利用ください
-          <Attention title="ワールドモード">不要</Attention> 
         </ModeDescription>
+        <Attention title="ワールドモード">不要</Attention> 
       </div>
     </div>
   </div>
