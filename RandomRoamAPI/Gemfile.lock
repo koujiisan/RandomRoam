@@ -50,6 +50,8 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
+    active_hash (2.3.0)
+      activesupport (>= 5.0.0)
     activejob (7.1.3.3)
       activesupport (= 7.1.3.3)
       globalid (>= 0.3.6)
@@ -138,6 +140,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (3.0.11)
+    rack-cors (2.0.2)
+      rack (>= 2.0.0)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -205,9 +209,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  active_hash (~> 2.3.0)
   bootsnap
   debug
   puma (>= 5.0)
+  rack-cors
   rails (~> 7.1.3, >= 7.1.3.2)
   sqlite3 (~> 1.4)
   tzinfo-data

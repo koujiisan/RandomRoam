@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "*": ["src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*"], // Add the missing file path here

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  height: 100vh;
+}
+
+.imageArea {
+  margin: 3rem auto;
+  width: 80%;
+  height: 80%;
+  object-fit: contain; /* 画像のアスペクト比を保持しつつ、コンテナにフィットさせる */
+}
+
+.right {
+  width: 50%;
+  height: 100vh;
+}
