@@ -4,8 +4,7 @@ module Api
       regions = Region.all.map do |region|
         {
           id: region.id,
-          name: region.name,
-          prefectures: region.prefectures.map { |p| { id: p.id, name: p.name, cities: p.cities } }
+          name: region.name
         }
       end
       render json: regions

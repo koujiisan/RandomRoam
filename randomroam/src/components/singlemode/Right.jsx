@@ -4,7 +4,7 @@ import styles from "@/styles/SingleMode.module.css";
 
 const Right = ({ onThrowButtonClick }) => {
   return (
-    <button onClick={onThrowButtonClick}>
+    <button className={styles.button} onClick={onThrowButtonClick} >
       Throw
     </button>
   );

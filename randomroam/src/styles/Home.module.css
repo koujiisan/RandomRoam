@@ -92,3 +92,7 @@
   margin: 1rem auto;
   padding: 10px 20px;
 }
+
+.button:hover {
+  opacity: 0.8;
+}

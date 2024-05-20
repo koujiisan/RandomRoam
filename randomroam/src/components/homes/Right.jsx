@@ -9,7 +9,7 @@ const Right = () => {
       <div className={styles.rightContainers}>
         <p>モードを選んでください</p>
         <div className={styles.buttons}>
-          <Link href="/singleMode" className={styles.buttons}>
+          <Link href="/singleMode">
             <button className={styles.button}>シングルモード</button>
           </Link>
           <button className={styles.button}>マルチモード</button>
