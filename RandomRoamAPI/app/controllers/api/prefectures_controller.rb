@@ -2,10 +2,12 @@ module Api
   class PrefecturesController < ApplicationController
     def index
       prefecture = Prefecture.all.sample
+      city = prefecture.cities.sample
+      puts city
       data = {
         id: prefecture.id,
         name: prefecture.name,
-        cities: prefecture.cities,
+        city: city,
         region: prefecture.region.name
       }
       render json: data

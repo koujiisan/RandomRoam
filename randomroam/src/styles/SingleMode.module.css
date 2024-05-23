@@ -35,3 +35,20 @@
 .button:hover {
   opacity: 0.8;
 }
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  margin: auto;
+  height: 80%;
+  width: 40%;
+}
+
+.answerItem {
+  margin: auto;
+  font-size: 2rem;
+  margin: 1rem;
+}
