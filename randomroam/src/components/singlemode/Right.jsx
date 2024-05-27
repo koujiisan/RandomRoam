@@ -7,11 +7,12 @@ const Right = ({ onThrowButtonClick, finish, data }) => { // finishプロパテ�
     // finishがtrueのときに表示する内容
     return (
       <div className={styles.answer}>
-        <div className={styles.answerItem}>
-          <p>{data.region}</p>
-          <p>{data.name}</p>
-          <p>{data.city}</p>
-        </div>
+        <ul className={styles.answerItem}>
+          <li>{data.region}</li>
+          <li>{data.name}</li>
+          <li>{data.city}</li>
+          <li><a href={data.tourism_url} target="_blank" rel="noopener noreferrer">公式情報</a></li>
+        </ul>
       </div>
     )
     

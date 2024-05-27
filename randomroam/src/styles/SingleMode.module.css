@@ -48,7 +48,8 @@
 }
 
 .answerItem {
-  margin: auto;
   font-size: 2rem;
+  list-style: none;
+  margin: auto;
   margin: 1rem;
 }

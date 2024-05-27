@@ -8,7 +8,7 @@ const SetLeft = (throwButtonClicked, data, loading) => {
     '/images/japaneseMap.jpg',
     '/images/darts.jpg',
     '/images/smoke.jpg',
-    data && data.length > 0 ? `/images/${data[0].name}${data[0].cities[0]}.jpg` : '/images/default.jpg'
+    data && data.length > 0 ? `/images/${data.name}${data.city}.jpg` : '/images/default.jpg'
   ];
 
   return { imageIndex, setImageIndex, data, loading, timeoutRef, images }; // 必要な値をオブジェクトとして返します
