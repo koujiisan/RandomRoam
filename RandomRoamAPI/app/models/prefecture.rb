@@ -107,9 +107,7 @@ self.data = [
   },
   { "id": 18, "region_id": 4, "name": "福井県", "cities": [
       { "name": "福井市", "tourism_url": "https://www.fuku-e.com/" },
-      { "
-
-name": "敦賀市", "tourism_url": "https://www.city.tsuruga.lg.jp/" },
+      { "name": "敦賀市", "tourism_url": "https://www.city.tsuruga.lg.jp/" },
       { "name": "小浜市", "tourism_url": "https://www1.city.obama.fukui.jp/" }
     ]
   },
@@ -216,9 +214,7 @@ name": "敦賀市", "tourism_url": "https://www.city.tsuruga.lg.jp/" },
     ]
   },
   { "id": 36, "region_id": 7, "name": "徳島県", "cities": [
-      { "name": "徳
-
-島市", "tourism_url": "https://www.city.tokushima.tokushima.jp/kankou/" },
+      { "name": "徳島市", "tourism_url": "https://www.city.tokushima.tokushima.jp/kankou/" },
       { "name": "鳴門市", "tourism_url": "https://www.city.naruto.tokushima.jp/" },
       { "name": "阿南市", "tourism_url": "https://www.city.anan.tokushima.jp/" }
     ]
