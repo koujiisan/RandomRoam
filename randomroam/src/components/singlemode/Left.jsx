@@ -4,9 +4,11 @@ import ImageArea from './ImageArea';
 import SetLeft from './SetLeft';
 
 const Left = ({ throwButtonClicked, setFinish, data, loading }) => { // setFinishをpropsから受け取ります
-  const { images, imageIndex} = SetLeft(throwButtonClicked, data, loading); 
+  const { images, imageIndex } = SetLeft(throwButtonClicked, data, loading); 
 
   if (loading) return <div>Loading...</div>;
+
+  console.log(images);
 
   return (
     <>
