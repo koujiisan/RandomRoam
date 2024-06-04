@@ -8,7 +8,7 @@ const SetLeft = (throwButtonClicked, data, loading) => {
     '/images/japaneseMap.jpg',
     '/images/darts.jpg',
     '/images/smoke.jpg',
-    data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_MapsAPIKEY}`
+    data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_Google_Map}`
   ]);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const SetLeft = (throwButtonClicked, data, loading) => {
       '/images/japaneseMap.jpg',
       '/images/darts.jpg',
       '/images/smoke.jpg',
-      data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_MapsAPIKEY}`
+      data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_Google_Map}`
     ]);
   }, [data]);
 

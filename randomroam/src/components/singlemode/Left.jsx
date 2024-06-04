@@ -8,8 +8,6 @@ const Left = ({ throwButtonClicked, setFinish, data, loading }) => { // setFinis
 
   if (loading) return <div>Loading...</div>;
 
-  console.log(images);
-
   return (
     <>
       <ImageArea images={images} imageIndex={imageIndex} setFinish={setFinish} />
