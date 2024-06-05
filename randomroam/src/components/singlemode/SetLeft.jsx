@@ -1,6 +1,7 @@
 // SetLeft.jsx
 import { useState, useEffect } from 'react';
 import UseImageIndex from './UseImageIndex';
+const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
 const SetLeft = (throwButtonClicked, data, loading) => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -8,7 +9,7 @@ const SetLeft = (throwButtonClicked, data, loading) => {
     '/images/japaneseMap.jpg',
     '/images/darts.jpg',
     '/images/smoke.jpg',
-    data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_Google_Map}`
+    data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${apiKey}`
   ]);
 
   useEffect(() => {
@@ -16,7 +17,7 @@ const SetLeft = (throwButtonClicked, data, loading) => {
       '/images/japaneseMap.jpg',
       '/images/darts.jpg',
       '/images/smoke.jpg',
-      data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${process.env.NEXT_PUBLIC_Google_Map}`
+      data && `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(data.name)},${encodeURIComponent(data.city)}&zoom=${data.name === '北海道' ? 10 : 12}&size=500x500&maptype=roadmap&key=${apiKey}`
     ]);
   }, [data]);
 
