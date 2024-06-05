@@ -6,13 +6,13 @@ self.data = [
   { "id": 1, "region_id": 1, "name": "北海道", "cities": [
       { "name": "札幌市", "tourism_url": "https://www.sapporo.travel/" },
       { "name": "函館市", "tourism_url": "https://www.hakobura.jp/" },
-      { "name": "旭川市", "tourism_url": "https://www.asahikawa-tourism.com/" }
+      { "name": "旭川市", "tourism_url": "https://www.atca.jp/kankou/" }
     ]
   },
   { "id": 2, "region_id": 2, "name": "青森県", "cities": [
       { "name": "青森市", "tourism_url": "https://www.en-aomori.com/" },
       { "name": "弘前市", "tourism_url": "https://www.hirosaki-kanko.or.jp/" },
-      { "name": "八戸市", "tourism_url": "https://hachinohe-kanko.com/" }
+      { "name": "八戸市", "tourism_url": "https://visithachinohe.com/" }
     ]
   },
   { "id": 3, "region_id": 2, "name": "岩手県", "cities": [
@@ -131,7 +131,7 @@ self.data = [
   },
   { "id": 22, "region_id": 4, "name": "静岡県", "cities": [
       { "name": "静岡市", "tourism_url": "https://www.visit-shizuoka.com/" },
-      { "name": "浜松市", "tourism_url": "https://www.inhamamatsu.com/" },
+      { "name": "浜松市", "tourism_url": "https://hamamatsu-daisuki.net/" },
       { "name": "沼津市", "tourism_url": "https://www.city.numazu.shizuoka.jp/" }
     ]
   },
@@ -168,7 +168,7 @@ self.data = [
   { "id": 28, "region_id": 5, "name": "兵庫県", "cities": [
       { "name": "神戸市", "tourism_url": "https://www.feel-kobe.jp/" },
       { "name": "姫路市", "tourism_url": "https://www.himeji-kanko.jp/" },
-      { "name": "尼崎市", "tourism_url": "https://www.ama-tabi.com/" }
+      { "name": "尼崎市", "tourism_url": "https://kansai-tourism-amagasaki.jp/spot/" }
     ]
   },
   { "id": 29, "region_id": 5, "name": "奈良県", "cities": [
@@ -258,7 +258,7 @@ self.data = [
   { "id": 43, "region_id": 8, "name": "熊本県", "cities": [
       { "name": "熊本市", "tourism_url": "https://kumamoto-guide.jp/" },
       { "name": "八代市", "tourism_url": "https://www.city.yatsushiro.lg.jp/" },
-      { "name": "人吉市", "tourism_url": "https://www.city.hitoyoshi.lg.jp/" }
+      { "name": "人吉市", "tourism_url": "https://hitoyoshionsen.net/" }
     ]
   },
   { "id": 44, "region_id": 8, "name": "大分県", "cities": [
