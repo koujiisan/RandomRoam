@@ -11,7 +11,7 @@ const Right = ({ onThrowButtonClick, finish, data }) => { // finishプロパテ�
           <li>{data.region}</li>
           <li>{data.name}</li>
           <li>{data.city}</li>
-          <li><a href={data.tourism_url} target="_blank" rel="noopener noreferrer">公式情報</a></li>
+          <li className={styles.link}><a href={data.tourism_url} target="_blank" rel="noopener noreferrer">公式情報</a></li>
         </ul>
       </div>
     )
