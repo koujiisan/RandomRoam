@@ -9,7 +9,7 @@ const Container = () => {
 
   const [throwButtonClicked, setThrowButtonClicked] = useState(false);
   const [finish, setFinish] = useState(false); // finishとsetFinishを追加します
-  const { data, loading } = useFetchData('http://localhost:3001/api/prefectures');
+  const { data, loading } = useFetchData('https://randomroam.onrender.com/api/prefectures');
 
   const handleThrowButtonClick = () => {
     setThrowButtonClicked(true);
