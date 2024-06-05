@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    NEXT_PUBLIC_Google_Map: process.env.NEXT_PUBLIC_Google_Map,
+    Google_Map: process.env.Google_Map,
   },
 };
 
