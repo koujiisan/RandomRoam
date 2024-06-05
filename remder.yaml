@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: dictionary
+    env: ruby
+    buildCommand: "./RandomRoamAPI/bin/render-build.sh"
+    startCommand: "bundle exec puma -C ./RandomRoamAPI/config/puma.rb ./RandomRoamAPI/config.ru"
+    envVars:
+      - key: RAILS_MASTER_KEY
+        sync: false
