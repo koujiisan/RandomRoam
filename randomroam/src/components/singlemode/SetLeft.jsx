@@ -1,7 +1,7 @@
 // SetLeft.jsx
 import { useState, useEffect } from 'react';
 import UseImageIndex from './UseImageIndex';
-const apiKey = process.env.Google_Map;
+const apiKey = process.env.NEXT_PUBLIC_Google_Map;
 
 const SetLeft = (throwButtonClicked, data, loading) => {
   const [imageIndex, setImageIndex] = useState(0);
