@@ -191,7 +191,7 @@ self.data = [
   },
   { "id": 32, "region_id": 6, "name": "島根県", "cities": [
       { "name": "松江市", "tourism_url": "https://www.kankou-matsue.jp/" },
-      { "name": "出雲市", "tourism_url": "https://www.city.izumo.shimane.jp/www/toppage/0000000000000/APM03000.html" },
+      { "name": "出雲市", "tourism_url": "https://izumo-kankou.gr.jp/" },
       { "name": "浜田市", "tourism_url": "https://www.city.hamada.shimane.jp/www/index.html" }
     ]
   },
@@ -244,7 +244,7 @@ self.data = [
     ]
   },
   { "id": 41, "region_id": 8, "name": "佐賀県", "cities": [
-      { "name": "佐賀市", "tourism_url": "https://www.sagabai.com/main/?cont=kanko_top" },
+      { "name": "佐賀市", "tourism_url": "https://www.sagabai.com/" },
       { "name": "唐津市", "tourism_url": "https://www.karatsu-kankou.jp/" },
       { "name": "鳥栖市", "tourism_url": "https://www.city.tosu.lg.jp/" }
     ]
