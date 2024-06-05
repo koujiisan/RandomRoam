@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import Left from './Left';
 import Right from './Right';
 import styles from "@/styles/SingleMode.module.css";
-import useFetchData from './useFetchData'; // useFetchDataのパスを適切に調整してください
+import UseFetchData from './UseFetchData'; // useFetchDataのパスを適切に調整してください
 
 const Container = () => {
 
   const [throwButtonClicked, setThrowButtonClicked] = useState(false);
   const [finish, setFinish] = useState(false); // finishとsetFinishを追加します
-  const { data, loading } = useFetchData('https://randomroam.onrender.com/api/prefectures');
+  const { data, loading } = UseFetchData('https://randomroam.onrender.com/api/prefectures');
 
   const handleThrowButtonClick = () => {
     setThrowButtonClicked(true);
