@@ -5,7 +5,7 @@ class Prefecture < ActiveHash::Base
 self.data = [
   { "id": 1, "region_id": 1, "name": "北海道", "cities": [
       { "name": "札幌市", "tourism_url": "https://www.sapporo.travel/" },
-      { "name": "函館市", "tourism_url": "https://www.hakodate.travel/" },
+      { "name": "函館市", "tourism_url": "https://www.hakobura.jp/" },
       { "name": "旭川市", "tourism_url": "https://www.asahikawa-tourism.com/" }
     ]
   },
