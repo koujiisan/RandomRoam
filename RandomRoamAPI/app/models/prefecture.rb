@@ -143,7 +143,7 @@ self.data = [
   },
   { "id": 24, "region_id": 5, "name": "三重県", "cities": [
       { "name": "津市", "tourism_url": "https://www.info.city.tsu.mie.jp/" },
-      { "name": "四日市市", "tourism_url": "https://www.yokkaichi-kanko.com/" },
+      { "name": "四日市市", "tourism_url": "https://kanko-yokkaichi.com/" },
       { "name": "伊勢市", "tourism_url": "https://www.city.ise.mie.jp/" }
     ]
   },
@@ -184,7 +184,7 @@ self.data = [
     ]
   },
   { "id": 31, "region_id": 6, "name": "鳥取県", "cities": [
-      { "name": "鳥取市", "tourism_url": "https://www.tottori-tour.jp/" },
+      { "name": "鳥取市", "tourism_url": "https://www.torican.jp/" },
       { "name": "米子市", "tourism_url": "https://www.yonago-navi.jp/" },
       { "name": "倉吉市", "tourism_url": "https://www.apionet.or.jp/kankou/" }
     ]
