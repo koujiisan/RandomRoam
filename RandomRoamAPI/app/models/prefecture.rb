@@ -174,7 +174,7 @@ self.data = [
   { "id": 29, "region_id": 5, "name": "奈良県", "cities": [
       { "name": "奈良市", "tourism_url": "https://narashikanko.or.jp/" },
       { "name": "橿原市", "tourism_url": "https://www.city.kashihara.nara.jp/" },
-      { "name": "大和郡山市", "tourism_url": "https://www.city.yamatokoriyama.nara.jp/" }
+      { "name": "大和郡山市", "tourism_url": "https://www.yk-kankou.jp/" }
     ]
   },
   { "id": 30, "region_id": 5, "name": "和歌山県", "cities": [
